@@ -1,0 +1,28 @@
+Comp152 Project1:
+Practicing Java after knowing python
+
+Due:Tuesday  September 21st
+
+Summary: This will be a relatively short project for you all to practice doing many of the things you learned previously in comp151 in python and do them in Java now.
+
+Details:
+Write a Java program which will do the following: (I understand this is not really the right way to do this but we haven't covered objects yet)
+	• First create three ArrayLists (one for string, the next for floats and the third will hold ints)
+	• then open a text file and read it all in.
+		○ each line in the file will be in the following format
+			§ product name,product price,number available
+			§ the product name will be a string, the product price will be a floating point number, the number available will be an integer
+		○ break each line into the three parts, and put the product name into your string array list, the product price into the float array list and the product count into the int ArrayList. Make sure that they got into the same position in all three array lists. That is, if this is the product name which goes into position 3 in its list, then they product price should be in the position 3 for the floating point ArrayList.
+	• Now loop forever and ask
+		○ does the user want to end (if so then end the program)
+		○ if the user doesn't want to end, ask the user what they want to look up
+			§ read in the product name the user asks for
+			§ look in the product name ArrayList,
+				□ if the product isn't there - then tell the user
+if the product is there, then tell the user the how many are on hand and how much each one costs.
+
+
+
+Art of sport,$5.59,8
+Native,$10.98,39
+Stress relief candle,$7.55,72
